@@ -1,0 +1,27 @@
+{
+  "name": "@bloomprotocol/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Bloom's Base React ESLint Configuration",
+  "main": "index.js",
+  "author": "Bloom Team <team@bloom.co>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@bloomprotocol/eslint-config": "^1.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "devDependencies": {
+    "@bloomprotocol/eslint-config": "^1.0.0",
+    "@bloomprotocol/prettier-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "typescript": "^3.5.3"
+  }
+}
