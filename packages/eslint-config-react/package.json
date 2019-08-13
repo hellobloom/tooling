@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Bloom Team <team@bloom.co>",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@bloomprotocol/eslint-config": "^1.0.0",
     "eslint-plugin-react": "^7.14.3",

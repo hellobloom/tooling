@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Bloom Team <team@bloom.co>",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "prettier": "^1.18.2"
   },
