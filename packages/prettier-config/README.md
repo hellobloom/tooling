@@ -1,4 +1,4 @@
-# Prettier Config Bloom
+# Prettier Config
 
 Bloom's Base Prettier Configuration
 

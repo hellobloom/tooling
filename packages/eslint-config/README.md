@@ -1,4 +1,4 @@
-# ESLint-config-Bloom
+# ESLint Config
 
 Bloom's Base ESLint Configuration
 

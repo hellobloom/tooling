@@ -1,4 +1,4 @@
-# ESLint-config-Bloom-React
+# React ESLint Config
 
 Bloom's Base React ESLint Configuration
 
