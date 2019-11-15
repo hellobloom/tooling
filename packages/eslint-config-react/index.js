@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     // Turn off certain react rules
     'react/prop-types': 0,
+    'react/no-unescaped-entities': [2, {forbid: ['>', '}']}],
 
     // Turn on the react-hooks rules
     'react-hooks/rules-of-hooks': 'error',
