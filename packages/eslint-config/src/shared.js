@@ -31,6 +31,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+
     'prettier/prettier': 'error',
   },
 }
