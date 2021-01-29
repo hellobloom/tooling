@@ -1,17 +1,11 @@
 # ESLint Config
 
-Bloom's Base ESLint Configuration
+Bloom's ESLint Configurations
 
 ## Installation
 
 ```
 npm install --save-dev @bloomprotocol/eslint-config
-```
-
-For greater flexibility eslint dependencies are peer dependencies so you must install them yourself
-
-```
-npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier prettier
 ```
 
 ## Usage
@@ -21,5 +15,15 @@ npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parse
 
 module.exports = {
   extends: ['@bloomprotocol/eslint-config'],
+}
+```
+
+Or for React support:
+
+```js
+// .eslintrc.js
+
+module.exports = {
+  extends: ['@bloomprotocol/eslint-config/react'],
 }
 ```

@@ -1,6 +1,6 @@
 {
   "name": "@bloomprotocol/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bloom's Base Prettier Configuration",
   "main": "index.js",
   "author": "Bloom Team <team@bloom.co>",
@@ -8,10 +8,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "prettier": "^1.19.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.19.1"
+  "dependencies": {
+    "prettier": "^2.2.1"
   }
 }
