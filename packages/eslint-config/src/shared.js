@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier', 'prettier/prettier', 'prettier/@typescript-eslint'],
+  extends: ['prettier', 'prettier/prettier'],
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     // Turn off rules
@@ -31,6 +31,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/semi': ['error', 'never'],
 
     'prettier/prettier': 'error',
   },
