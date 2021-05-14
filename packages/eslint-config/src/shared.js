@@ -8,6 +8,8 @@ module.exports = {
     'max-classes-per-file': 'off',
     'no-underscore-dangle': 'off',
     'class-methods-use-this': 'off',
+    '@typescript-eslint/no-shadow': 'off',
+    '@typescript-eslint/indent': 'off',
 
     // Configure rules
 
@@ -32,6 +34,24 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/semi': ['error', 'never'],
+
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/*.test.js',
+          '**/*.test.jsx',
+          '**/*.spec.js',
+          '**/*.spec.jsx',
+          '**/*.test.ts',
+          '**/*.test.tsx',
+          '**/*.spec.ts',
+          '**/*.spec.tsx',
+          '**/__tests__/**/*',
+          '**/stories/**/*',
+        ],
+      },
+    ],
 
     'prettier/prettier': 'error',
   },
