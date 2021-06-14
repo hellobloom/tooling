@@ -7,6 +7,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'max-classes-per-file': 'off',
     'no-underscore-dangle': 'off',
+    'no-restricted-syntax': 'off',
     'class-methods-use-this': 'off',
     '@typescript-eslint/no-shadow': 'off',
     '@typescript-eslint/indent': 'off',
