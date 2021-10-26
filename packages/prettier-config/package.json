@@ -1,6 +1,6 @@
 {
   "name": "@bloomprotocol/prettier-config",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "description": "Bloom's Base Prettier Configuration",
   "main": "index.js",
   "author": "Bloom Team <team@bloom.co>",
