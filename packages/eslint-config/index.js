@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['airbnb-typescript/base', './src/shared'],
+  extends: ['airbnb-base', 'airbnb-typescript/base', './src/shared'],
 }

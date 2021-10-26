@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-typescript', './src/shared'],
+  extends: ['airbnb', 'airbnb-typescript', './src/shared'],
   rules: {
     'react/prop-types': 'off',
     'react/destructuring-assignment': 'off',
